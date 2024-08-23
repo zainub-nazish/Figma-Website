@@ -1,0 +1,404 @@
+@import url('Chttps://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  ==================== HEADER SECTION ============================================ */
+.main {
+    margin: auto;
+    margin-top: 50px;
+}
+.main .logo img{
+   width: 95px;
+}
+
+nav {
+    /* background-color: aqua; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.anchors a {
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+    position: relative;
+    top: 10px;
+    color: rgb(0, 0, 0);
+
+}
+
+.anchors a:hover {
+    color: #1714d3;
+
+}
+
+
+.btn1 {
+    background-color: #75BF7A;
+    color: white;
+    border-color: #75BF7A;
+    border-radius: none;
+    height: 30px;
+    width: 107px;
+    border-radius: 10px;
+    margin-top: 14px;
+    border: none;
+    margin: auto;
+}
+
+#buttonContainer :hover.btn1 {
+    border: 2px solid #1714d3;
+}
+
+/*  ================================== Banner Section ==================== */
+
+.main2{
+    width: 1260px;
+    margin: auto;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .col1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    gap: 20px;
+    padding-left: 110px;
+   
+}
+.banner .col1 h1{
+    width: 270px;
+
+}
+.banner .col1 p{
+    width: 290px;
+}
+
+
+.button .me1{
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.me1 img{
+    width: 20px;
+    margin-top: 2px;
+}
+.button .me1:hover{
+    border: 3px solid #1714d3;
+}
+
+
+.banner .col22{
+    flex: 1;
+    padding-right: 240px;
+}
+.banner .col22 img{
+    padding: 40px;
+    width: 350px;
+}
+/* =============================== box ===================================== */
+
+.main3{
+    flex-direction: row;
+}
+.container{
+    background-color: #75BF7A;
+
+    height: 67px;
+margin: 0 80px;
+border-radius: 10px;  
+
+}
+.main3 .container .box1{
+    display: flex;
+    
+}
+.main3 .container .box1 p{
+    margin: 0 80px;
+    margin-top: 20px;   
+}
+.boxpp{
+    color: white;
+}
+
+
+#st{
+    margin-top: 20px;
+    width: 250px;
+    height: 27px;
+   border-style: solid;
+   border: none;
+}
+#b5{
+    width: 150px;
+    height: 26px;
+    border-style: solid;
+    border: none;
+    color: white;
+    background-color: black;
+}
+
+
+
+.searchBtn4{
+    margin: 0 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/* ========================= heading ================== */
+h1{
+    display: inline-block;
+    margin-top: 80px;
+}
+
+
+.Heading1{
+    color:#75BF7A; 
+}
+.para{
+    width: 380px;
+    line-height: 26px;
+
+}
+
+/* =========================== how to section ============================= */
+
+
+.howToSection{
+    display: flex;
+    gap: 30px;
+    padding: 100px 0;
+    
+
+}
+
+.howToSection .col1{
+
+    flex: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* background-color: aqua; */
+    text-align: right;
+
+}
+.howToSection .col1 img{
+    width: 60px;
+    height: 60px;
+}
+.howToSection .col1 .box1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+}
+.howToSection .col1 .box2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.howToSection .col2{
+    flex: 80;
+    /* background-color:green; */
+
+}
+.howToSection .col3{
+    
+    flex: 100;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: left;
+}
+.howToSection .col3 .box1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}.howToSection .col3 .box2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.howToSection .col3 img{
+    width: 60px;
+    height: 60px;
+}
+.col1 .box1 img{
+    position: relative;
+    top: 40px;
+}
+.col1 .box2 img{
+    position: relative;
+    top: 40px;
+    
+}
+.col3 .box1 img{
+ position: relative;
+ top: 40px;
+}
+.col3 .box2 img{
+ position: relative;
+ top: 40px ;
+}
+
+.paraCol1{
+  margin-bottom: 400px;
+}
+.col2 img{
+    position: relative;
+    top: 120px;
+    width: 300px;
+}
+
+/* ========================= TERE BENEFITS (card 1) ============================== */
+
+#Relax{
+ position: relative;
+ bottom: 500px;
+ text-align: center;
+ /* color: #67cc6e;  */
+}
+
+#hflax{
+    position: relative;
+   bottom: 360px;
+   margin: 0 0 0 20px;
+   /* background-color: rgb(216, 224, 224); */
+
+}
+#pflax{
+    position: relative;
+    bottom: 360px;
+    margin: 0 0 0 20px;
+    /* background-color: rgb(216, 224, 224); */
+
+    
+}
+.ho1{
+    width: 600px;
+    
+    flex: 1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+.card2{
+    position: relative;
+    bottom: 450px;
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    /* background-color: rgb(216, 224, 224); */
+    
+
+}
+.card2 img{
+    align-items: center;
+width: 200px;
+margin-left: 14px;
+}
+
+/* =================================== tere benefits (card 2) ===================================== */
+
+.earning{ 
+    /* background-color: aqua; */
+    flex: 1;
+    display: flex;
+    position: relative;
+    bottom: 400px;
+   margin: 0 30px 0 30px;
+   
+}
+#doller img{
+    width: 200px;
+   position: relative;
+   left: 250px;
+
+}
+.dollerText{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+.dollerText h1{
+    position: relative;
+    right: 100px;
+}
+.dollerText p{
+    position: relative;
+  top: 120px;
+ display: flex;
+ position: relative;
+ right: 240px;
+
+}
+
+/* =========================== customer support (card 3 ) ========================= */
+
+/* .customer{
+    /* background-color: aqua; */
+
+/* } */ 
+.support1{
+    flex: 1;
+    justify-content: center;
+    position: relative;
+   bottom: 330px;
+
+}
+.support1 h1{
+    margin: 0 0 0 20px;
+}
+.support1 p{
+    width: 300px;
+    margin: 0 0 0 20px;
+}
+.support2{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+.support2 img{
+    position: relative;
+    bottom: 100px;
+    position: relative;
+    right: 360px;
+}
+
+
+/* =================================== logo (card 4)  ===================================== */
+
+
+
+
+
+
+
+
+
+
